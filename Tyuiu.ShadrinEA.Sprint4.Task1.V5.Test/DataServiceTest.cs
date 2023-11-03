@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.ShadrinEA.Sprint4.Task0.V7.Lib;
+using Tyuiu.ShadrinEA.Sprint4.Task1.V5.Lib;
 
-namespace Tyuiu.ShadrinEA.Sprint4.Task0.V7.Test
+namespace Tyuiu.ShadrinEA.Sprint4.Task1.V5.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,11 +12,10 @@ namespace Tyuiu.ShadrinEA.Sprint4.Task0.V7.Test
         {
             DataService ds = new DataService();
 
-            int[] array = {9,8,7,9,5,4,3,2,3,7};
-            int res = ds.GetMultOddArrEl(array);
-            int result = 178605;
+            int[] array = { 9, 6, 6, 9, 7, 8, 5, 9, 6, 6, 8, 6, 8, 6, 7 };
+            int res = ds.Calculate(array);
+            int result = 60;
             Assert.AreEqual(result, res);
-
         }
     }
 }

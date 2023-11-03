@@ -15,7 +15,7 @@ namespace Tyuiu.ShadrinEA.Sprint4.Task0.V7.Lib
 
             for (int i =0; i<= array.Length -1; i++)
             {
-                if (array[i]%2==0)
+                if (array[i]%2!=0)
                 { 
                     p = p * array[i];
                 }
