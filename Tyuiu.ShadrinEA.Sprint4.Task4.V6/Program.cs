@@ -17,8 +17,8 @@ namespace Tyuiu.ShadrinEA.Sprint4.Task4.V6
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* Спринт #4                                                                    *");
             Console.WriteLine("* Тема: Двумерные массивы                                                      *");
-            Console.WriteLine("* Задание #3                                                                   *");
-            Console.WriteLine("* Вариант #24                                                                  *");
+            Console.WriteLine("* Задание #4                                                                   *");
+            Console.WriteLine("* Вариант #6                                                                   *");
             Console.WriteLine("* Выполнил: Шадрин Егор Андреевич | ИСТНб-23-1                                 *");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                     *");
