@@ -40,6 +40,7 @@ namespace Tyuiu.ShadrinEA.Sprint4.Task0.V7
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("Произведение нечетных элементов массива = " + ds.GetMultOddArrEl(array));
             Console.ReadKey();
-        }
+        } 
     }
 }
+ 
